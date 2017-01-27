@@ -14,3 +14,25 @@
 .top-bar .active-link {
     font-weight: bold;
 }
+
+.clock {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    margin: 4rem auto;
+    border: 2px solid #2099e8;
+    border-radius: 100%;
+    width: 14rem;
+    height: 14rem;
+    background-color: #b5d0e2;
+}
+.clock-text {
+    color: #fff;
+    font-size: 2.25rem;
+    font-weight: 300;
+}
