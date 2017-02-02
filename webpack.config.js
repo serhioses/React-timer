@@ -31,6 +31,7 @@ module.exports = {
             Countdown: path + '/components/Countdown.jsx',
             Clock: path + '/components/Clock.jsx',
             CountdownForm: path + '/components/CountdownForm.jsx',
+            Controls: path + '/components/Controls.jsx',
             applicationStyles: 'app/css/style.css'
         }
     },
