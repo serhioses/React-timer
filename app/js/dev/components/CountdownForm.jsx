@@ -10,8 +10,8 @@ export default class CountdownForm extends React.Component {
         var strSeconds = this.refs.seconds.value;
 
         e.preventDefault();
-
-        if (strSeconds.match(/^[0-9]*$/)) {
+        
+        if (strSeconds.search(/^[0-9]+$/) !== -1) {
             this.refs.seconds.value = '';
             this.props.onSetCountdown(parseInt(strSeconds, 10));
         }
