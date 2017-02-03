@@ -15,6 +15,11 @@
     font-weight: bold;
 }
 
+.page-title {
+    margin: 2rem 0px;
+    text-align: center;
+}
+
 .clock {
     display: -webkit-flex;
     display: -moz-flex;
